@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Hotel</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding:0px;
+    }
+    a {
+        text-decoration: none;
+    }
+    header {
+        background-color: rgb(161, 159, 159);
+        font-family: 'Pacifico', cursive;
+    }
+    #photo1 {
+        height: 500px;
+        background:url('https://images.unsplash.com/photo-1506059612708-99d6c258160e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2098&q=80') no-repeat;
+        background-position: bottom -100px right 7px;
+    }
+    
+
+    #top {
+        width:65%;
+        margin: 0 auto;
+        overflow: auto;  
+    }
+    .title {
+        float: left;
+        text-transform: uppercase;
+        padding:10px;
+    }
+
+    .title:hover a{
+        color:rgb(7, 7, 7);
+    }
+
+    .link {
+        text-transform:capitalize;
+        float: right;
+       
+    }
+    .link > div {
+        float: left;
+        padding:10px;
+        border-radius: 5px;
+    }
+
+    .link > div:hover {
+        background-color: rgba(219, 205, 205, 0.377);
+    }
+
+
+</style>
+
+<body>
+    <header>
+        <div id="top">
+            <div class="title">
+                <a href="">hotel</a>
+            </div>
+            <div class="link"> 
+                <div><a href="">home</a></div>
+                <div><a href="">about</a></div>
+                <div><a href="">contact</a></div>
+            </div>
+        </div>
+    </header>
+    <div id="photo1"></div>
+    
+</body>
+</html>
