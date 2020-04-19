@@ -1,0 +1,142 @@
+
+    * {
+        margin: 0px;
+        padding:0px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(52, 122, 214);
+    }
+    header {
+        background-color: rgb(161, 159, 159);
+        font-family: 'Pacifico', cursive;
+    }
+
+    #top {
+        width:65%;
+        margin: 0 auto;
+        overflow: auto;  
+    }
+    .title {
+        float: left;
+        text-transform: uppercase;
+        padding:10px;
+    }
+
+    .title:hover a{
+        color:rgb(7, 7, 7);
+    }
+
+    .link {
+        text-transform:capitalize;
+        float: right;
+    }
+    .link > div {
+        float: left;
+        padding:10px;
+        border-radius: 5px;
+    }
+
+    .link > div:hover {
+        background-color: rgba(219, 205, 205, 0.377);
+    }
+    .link > div:hover a{
+        color: rgba(0, 0, 0, 0.767);
+    }
+
+    #photo1 {
+        height: 480px;
+        background:url('https://images.unsplash.com/photo-1506059612708-99d6c258160e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2098&q=80') no-repeat center center/cover;
+        padding-top: 180px;
+    }
+
+    div.introtitle, div.intro, div.click  {
+        font-family: 'Indie Flower', cursive;
+        color:wheat;  
+        text-align: center;
+    }
+
+    .introtitle {
+        text-transform:capitalize;
+        width:550px;
+        font-size: 50px;
+        margin: 0px auto 20px;
+        font-weight: 900;
+    }
+
+    .intro {
+        width:33%;
+        margin: auto;
+    }
+
+    .click {
+        margin: 20px auto;
+        text-transform:capitalize;
+        background-color: rgb(61, 37, 61);
+        width:120px;
+        padding:10px;
+        font-size: large;
+    }
+
+    .click:hover {
+        background-color: rgb(88, 76, 52);
+        color: rgb(2, 0, 0);
+    }
+
+    .orange {
+        color:orange;
+    }
+
+    #history > div {
+        height:400px;
+        overflow: auto;
+    }
+    .left{
+        width:50%;
+        float:left;
+        background:url('https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg') no-repeat center center/cover;
+    }
+    .right {
+        background-color: grey;
+        width:50%;
+        overflow: auto;
+    }
+    #history .introtitle {
+        margin-top: 50px;
+        color: black;
+    }
+
+    #history .intro {
+        color: black;
+        width:550px;
+        font-size: large;
+    }
+
+    #feature {
+        height: 300px;
+        background-color: wheat;
+        overflow: auto;
+    }
+
+    #feature > div{
+        height:300px;
+        float: left;
+        width:32.6%;
+        border: rgb(37, 32, 25);
+        margin-top: 50px;
+        border: black solid;
+    }
+    
+    #feature .location, .meals, .gym  div{
+        text-align: center;
+    }
+
+    .t1 {
+
+    }
+
+    i {
+        font-size: 100px;
+    }
+  
+

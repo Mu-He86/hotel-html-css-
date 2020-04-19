@@ -4,60 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Hotel</title>
 </head>
-<style>
-    * {
-        margin: 0px;
-        padding:0px;
-    }
-    a {
-        text-decoration: none;
-    }
-    header {
-        background-color: rgb(161, 159, 159);
-        font-family: 'Pacifico', cursive;
-    }
-    #photo1 {
-        height: 500px;
-        background:url('https://images.unsplash.com/photo-1506059612708-99d6c258160e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2098&q=80') no-repeat;
-        background-position: bottom -100px right 7px;
-    }
-    
-
-    #top {
-        width:65%;
-        margin: 0 auto;
-        overflow: auto;  
-    }
-    .title {
-        float: left;
-        text-transform: uppercase;
-        padding:10px;
-    }
-
-    .title:hover a{
-        color:rgb(7, 7, 7);
-    }
-
-    .link {
-        text-transform:capitalize;
-        float: right;
-       
-    }
-    .link > div {
-        float: left;
-        padding:10px;
-        border-radius: 5px;
-    }
-
-    .link > div:hover {
-        background-color: rgba(219, 205, 205, 0.377);
-    }
-
-
-</style>
-
 <body>
     <header>
         <div id="top">
@@ -71,7 +22,39 @@
             </div>
         </div>
     </header>
-    <div id="photo1"></div>
+    <main>
+        <div id="photo1">
+            <div class="introtitle"><span class="orange">enjoy</span> your stay</div>
+            <div class="intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, laborum officia. Porro sequi aliquam ex earum sed quam error enim vitae officia aliquid soluta, optio voluptates reiciendis dignissimos fugit architecto?</div>
+            <div class="click">about our hotel</div>
+        </div>
+
+        <div id="history">
+            <div class="left"></div>
+            <div class="right">
+                <div class="introtitle"><span class="orange">history</span> about hotel</div>
+                <div class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam adipisci deserunt expedita fugit reprehenderit amet? Fugiat maiores praesentium dolorem id, deleniti doloribus voluptatibus molestiae nobis aspernatur minus ex consectetur culpa!</div>
+                <div class="click">know more</div>
+            </div>
+        </div>
+        <div id="feature">
+            <div class="location">
+                <i class="far fa-building"></i>
+                <div class="t1">good location</div>
+                <div class="intro1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus suscipit repudiandae sint, expedita mollitia minima!</div>
+            </div>
+            <div class="meals">
+                <i class="fas fa-utensils"></i>
+                <div class="t1">good meals</div>
+                <div class="intro1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit fuga nobis, minima quod alias eius!</div>
+            </div>
+            <div class="gym">
+                <i class="fas fa-dumbbell"></i>
+                <div class="t1">good gym</div>
+                <div class="intro1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, eum quam. A quaerat magnam corporis?</div>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>
